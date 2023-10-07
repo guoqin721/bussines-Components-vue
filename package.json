@@ -1,6 +1,6 @@
 {
   "name": "szyw-bc-vue",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": false,
   "type": "module",
   "main": "./dist/szyw-bc-vue.es.js",
@@ -10,8 +10,8 @@
   ],
   "exports": {
     ".": {
-        "import": "./dist/szyw-bc-vue.es.js",
-        "require": "./dist/szyw-bc-vue.umd.js"
+      "import": "./dist/szyw-bc-vue.es.js",
+      "require": "./dist/szyw-bc-vue.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },
@@ -52,6 +52,5 @@
     "vue-tsc": "^1.8.11",
     "sass": "^1.68.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
