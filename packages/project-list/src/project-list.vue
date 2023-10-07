@@ -1,5 +1,5 @@
 <template>
-  <button :class="[classString]" :disabled="disabled">
+  <button :class="[classString]" class="we-button" :disabled="disabled">
     <slot>我是默认值</slot>
   </button>
 </template>
@@ -23,8 +23,8 @@
     name: 'SzywProjectList',
     props: Props,
     setup(props) {
+      // 'we-button',
       const classString = [
-        'we-button',
         `we-button-type-${props.type}`,
         props.disabled ? 'we-button-disabled' : ''
       ]
