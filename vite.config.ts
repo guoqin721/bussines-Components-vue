@@ -12,7 +12,9 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      '#': fileURLToPath(new URL('./types', import.meta.url)),
+    },
+    extensions: ['.js', '.vue', '.json', '.ts', '.d.ts'], // 使用路径别名时想要省略的后缀名，可以自己 增减
   }
 })
