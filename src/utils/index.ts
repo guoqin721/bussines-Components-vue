@@ -8,7 +8,7 @@ import type { Plugin } from 'vue';
 
 import { unref } from 'vue';
 import { isObject } from './is';
-import { Recordable, TargetContext } from '../../types/axios';
+import type { Recordable, TargetContext } from '#/axios';
 
 export const noop = () => {};
 

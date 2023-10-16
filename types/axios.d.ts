@@ -1,4 +1,4 @@
-declare type Recordable<T = any> = {
+export declare type Recordable<T = any> = {
   [x: string]: T;
 };
 export type ErrorMessageMode = 'none' | 'modal' | 'message' | undefined;

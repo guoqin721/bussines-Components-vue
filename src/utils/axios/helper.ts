@@ -3,7 +3,7 @@
 /* eslint-disable no-restricted-syntax */
 /* eslint-disable no-redeclare */
 /* eslint-disable no-unused-vars */
-import { Recordable } from '#/axios';
+import type { Recordable } from '#/axios';
 import { isObject, isString } from '../is';
 
 const DATE_TIME_FORMAT = 'YYYY-MM-DD HH:mm';
