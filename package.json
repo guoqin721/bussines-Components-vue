@@ -1,6 +1,6 @@
 {
   "name": "szyw-bc-vue",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "private": false,
   "type": "module",
   "main": "./dist/szyw-bc-vue.es.js",
