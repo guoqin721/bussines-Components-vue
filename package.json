@@ -58,5 +58,8 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0"
   }
 }
