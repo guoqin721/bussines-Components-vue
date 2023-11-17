@@ -10,17 +10,17 @@
 </template>
 <script lang="ts" setup>
 import {onMounted} from 'vue'
-import { getTestData } from '../../http/test'
+// import { getTestData } from '../../http/test'
 import '../../../src/assets/index.css'
 import './index.scss'
 const COMPONENT_NAME = 'SzywNodeSteps'
 defineOptions({
   name: COMPONENT_NAME
 })
-onMounted(async () => {
-  const test = await getTestData()
-  console.log('first', test)
-})
+// onMounted(async () => {
+//   const test = await getTestData()
+//   console.log('first', test)
+// })
 </script>
 <style scoped>
 :deep(.is-finish){
